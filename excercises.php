@@ -6,12 +6,13 @@
     <title>Document</title>
 </head>
 <body>
-    <!-- give details about the php   -->
-<?php
-//phpinfo();
+    <?php
+        $x =8;
+        $y = 7;
+        $z = ($x+$y)*5
 
-echo "Hello World"
+        echo "the total is $z"
+
 ?>
-    
 </body>
 </html>
